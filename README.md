@@ -1,5 +1,7 @@
 # Estudo de Caso sobre Dependency Inversion em Angular
 
+Projeto em Angular 18 ! o conceito pode ser aplicado para versões anteriores.
+
 A ideia é separar as regras de negócio do framework, ou seja, adaptar o Angular para usar as regras de negócio.
 
 ###     Estrutura de pasta
