@@ -41,6 +41,8 @@ export class UsersParseJsonCase implements UserCase<any[], User[]>{
 
 3. Preparei o Angular para receber minha regra de negócio usando uma Factory. Como preciso prover a classe UtilsService ao usar a minha regra de negócio, preciso informar ao Angular como ele deve "fabricar" aquela classe e a dependência que ela usa. 
 
+**src/app/views/users/users.component.ts**
+
 ```
 @Component({
   selector: 'app-users',
@@ -74,7 +76,7 @@ obs: se sua regra de negócio precisa de mais injeções, deve seguir a ordem! E
 
 4.  Executando a regra:
 
-
+**src/app/views/users/users.component.ts**
 
 ```
 @Component({
